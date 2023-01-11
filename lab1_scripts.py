@@ -17,4 +17,4 @@ import requests
 
 request = requests.get("https://raw.githubusercontent.com/krizziac/404Lab1/main/lab1_scripts.py")
 
-request.text
+print(request.text)
